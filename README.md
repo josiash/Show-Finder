@@ -1,3 +1,8 @@
+There are only two things to start it up.
+1. Please install yarn -> yarn install.
+2. yarn start
+http://localhost:3000/ is working
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
