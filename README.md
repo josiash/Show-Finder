@@ -1,7 +1,7 @@
 There are only two things to start it up.
 1. Please install yarn -> yarn install.
 2. yarn start
-http://localhost:3000/ is working
+3. App is working on http://localhost:3000/
 
 # Getting Started with Create React App
 
