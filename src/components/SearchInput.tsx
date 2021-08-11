@@ -29,6 +29,11 @@ export const SearchInput = () => {
         console.log(searchQuery);
     }
 
+    /**
+     * dangerouslySetInnerHTML in the last span is just to nicely show the content of summary.
+     * Unfortunately API provides summary as a HTML markup, this is why there is sanitization
+     */
+
     return (
         <>
             <div className={cssClasses.searchBar}>

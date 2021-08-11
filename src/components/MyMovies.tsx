@@ -15,6 +15,10 @@ export const MyMovies = () => {
         dispatch(removeMovie(movieRecord));
     }
 
+    /**
+     * dangerouslySetInnerHTML in the last span is just to nicely show the content of summary.
+     * Unfortunately API provides summary as a HTML markup, this is why there is sanitization
+     */
     return (
         <div className={cssClasses.movieList}>
             <h2>My films</h2>
